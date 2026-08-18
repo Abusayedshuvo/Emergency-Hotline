@@ -42,12 +42,15 @@
           </span>
           <span
             class="bg-[#41FF6B]/10 py-3 px-5 lg:px-9 rounded-full font-bold inline-flex gap-2 items-center"
-            >100
+          >
+            <span id="coin">100</span>
             <img src="images/star.svg" alt="" />
           </span>
           <span
             class="bg-green-600 text-white py-3 px-5 lg:px-9 rounded-full font-semibold"
-            >2 Copy</span
+          >
+            <span id="copy-count">2</span>
+            Copy</span
           >
         </div>
       </div>
@@ -348,19 +351,14 @@
               <i class="fa-regular fa-clock"></i>
               <span class="font-semibold ps-2">Call History</span>
             </p>
-            <button class="bg-[#00A63E] text-white rounded-full px-6 py-3">
+            <button
+              id="btn-clear"
+              class="bg-[#00A63E] text-white rounded-full px-6 py-3"
+            >
               Clear
             </button>
           </div>
-          <div class="mt-6">
-            <div class="bg-[#FAFAFA] p-4 rounded-lg flex justify-between">
-              <div>
-                <p class="font-semibold">Fire Service Number</p>
-                <p class="text-gray-600">999</p>
-              </div>
-              <p class="">11:36:58 AM</p>
-            </div>
-          </div>
+          <div class="mt-6" id="call-history"></div>
         </div>
       </div>
     </div>
