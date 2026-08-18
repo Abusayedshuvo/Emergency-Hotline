@@ -43,3 +43,5 @@
 - On clicking the **Copy button**, show an alert and **increase the copy count**
 
 - Hotline number will be **copied on click** so it can be pasted anywhere
+
+- After clicking on the **Call button**, the **exact time of the call** will be shown in the Call History section
